@@ -31,6 +31,10 @@
 @layer base {
   :root {
     --accent-foreground: 220, 74, 45;
+    --text-foreground-1: 176, 176, 176;
+    --text-foreground-2: 136, 136, 136;
+    --border-stroke-accent: 231, 231, 231;
+    --width: 872px;
   }
   * {
     @apply font-regular;

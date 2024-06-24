@@ -1,4 +1,4 @@
-import { Bell, Briefcase, HandCoins, MessageSquare } from "lucide-react";
+import { Briefcase, HandCoins, MessageSquare } from "lucide-react";
 import { cn } from "../../libs/utils";
 
 export const NavLinkMap = [
@@ -7,7 +7,9 @@ export const NavLinkMap = [
     link: "/jobs",
     icon: (className) => {
       return (
-        <Briefcase className={cn("w-4.5 h-4.5 text-[#B0B0B0]", className)} />
+        <Briefcase
+          className={cn("w-4.5 h-4.5 text-foreground_text_1", className)}
+        />
       );
     },
   },
@@ -17,7 +19,7 @@ export const NavLinkMap = [
     icon: (className) => {
       return (
         <MessageSquare
-          className={cn("w-4.5 h-4.5 text-[#B0B0B0]", className)}
+          className={cn("w-4.5 h-4.5 text-foreground_text_1", className)}
         />
       );
     },
@@ -27,8 +29,29 @@ export const NavLinkMap = [
     link: "/payments",
     icon: (className) => {
       return (
-        <HandCoins className={cn("w-4.5 h-4.5 text-[#B0B0B0]", className)} />
+        <HandCoins
+          className={cn("w-4.5 h-4.5 text-foreground_text_1", className)}
+        />
       );
     },
+  },
+];
+
+export const JobPostingPageSubRoutes = [
+  {
+    name: "Job preview",
+    link: "/job-preview",
+  },
+  {
+    name: "Applicants",
+    link: "/applicants",
+  },
+  {
+    name: "Match",
+    link: "/match",
+  },
+  {
+    name: "Messages",
+    link: "/job-post-messages",
   },
 ];

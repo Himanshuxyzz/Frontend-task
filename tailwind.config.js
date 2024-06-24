@@ -11,6 +11,12 @@ export default {
       },
       colors: {
         accent: "rgb(var(--accent-foreground))",
+        foreground_text_1: "rgb(var(--text-foreground-1))",
+        foreground_text_2: "rgb(var(--text-foreground-2))",
+        accent_border_stroke: "rgb(var(--border-stroke-accent))",
+      },
+      spacing: {
+        content: "calc(var(--width)*0.84)",
       },
     },
   },
