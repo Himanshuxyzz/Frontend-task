@@ -19,7 +19,7 @@ const TabPage = () => {
                 <h2 className="font-semibold text-1xl sm:text-3xl md:text-4xl text-foreground_text_4 whitespace-nowrap">
                   Senior Product Designer
                 </h2>
-                <div className="w-1 h-1 bg-[#D1D1D1] rounded-full"></div>
+                <div className="hidden sm:block w-1 h-1 bg-[#D1D1D1] rounded-full"></div>
                 <p className="text-foreground_text_2 font-medium text-xs sm:text-sm whitespace-nowrap">
                   posted 2 days ago
                 </p>
