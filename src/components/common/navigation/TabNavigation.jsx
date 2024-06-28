@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import ContentContainer from "../../layout/ContentContainer";
 import { cn } from "../../../../libs/utils";
+import BorderedSection from "../../ui/BorderedSection";
 
 const TabNavigation = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="border border-1 border-accent_border_stroke">
+    <BorderedSection top={true} bottom={true}>
       <ContentContainer className={"w-content flex justify-center"}>
-        <div className="flex items-center justify-between lg:justify-start md:gap-20 w-full">
+        <div className="flex items-center justify-between lg:justify-start md:gap-[90px] w-full">
           {data &&
             data.map(({ name }, idx) => {
               let isActive = activeIndex === idx;
@@ -20,7 +21,7 @@ const TabNavigation = ({ data }) => {
                 >
                   <p
                     className={cn(
-                      "text-foreground_text_2 text-base md:text-lg font-semibold mb-2 text-center",
+                      "text-foreground_text_2 text-base md:text-lg font-medium mb-2 text-center",
                       isActive && "text-accent"
                     )}
                   >
@@ -37,7 +38,7 @@ const TabNavigation = ({ data }) => {
             })}
         </div>
       </ContentContainer>
-    </div>
+    </BorderedSection>
   );
 };
 

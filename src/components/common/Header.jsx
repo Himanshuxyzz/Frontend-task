@@ -7,7 +7,7 @@ import { NavLinkMap } from "../../utils";
 const Header = () => {
   return (
     <header className="w-full ">
-      <div className="py-4 md:py-5 px-4 sm:px-8">
+      <div className="py-3 md:py-[18px] px-4 sm:px-6">
         <NavBar data={NavLinkMap} />
       </div>
       <TabNavigation data={JobPostingPageSubRoutes} />
