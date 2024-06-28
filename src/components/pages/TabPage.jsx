@@ -15,7 +15,7 @@ const TabPage = () => {
             className={"flex items-center justify-center sm:justify-start"}
           >
             <div className="flex flex-col gap-2 sm:gap-3.5 md:gap-5">
-              <div className="flex justify-between items-center gap-2.5">
+              <div className="flex justify-between items-center gap-2.5 flex-wrap">
                 <h2 className="font-semibold text-1xl sm:text-3xl md:text-4xl text-foreground_text_4 whitespace-nowrap">
                   Senior Product Designer
                 </h2>
