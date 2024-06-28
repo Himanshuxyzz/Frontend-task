@@ -33,6 +33,8 @@
     --accent-foreground: 220, 74, 45;
     --text-foreground-1: 176, 176, 176;
     --text-foreground-2: 136, 136, 136;
+    --text-foreground-3: 110, 109, 109;
+    --text-foreground-4: 61, 61, 61;
     --border-stroke-accent: 231, 231, 231;
     --width: 872px;
   }
