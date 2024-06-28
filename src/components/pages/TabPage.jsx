@@ -304,10 +304,10 @@ const TabPage = () => {
         >
           <div className="w-full flex flex-col gap-6">
             <div className="flex items-center justify-center xl:justify-between gap-4 md:flex-col xl:flex-row">
-              <button className="flex items-center justify-center border border-accent py-3 xl:px-[34px] font-medium text-base bg-[#FEF4F2] rounded-lg text-accent gap-2.5 max-xl:w-full">
+              <button className="flex items-center justify-center border border-accent py-3 xl:px-[34px] font-medium text-base bg-[#FEF4F2] rounded-lg text-accent gap-2.5 max-xl:w-full hover:bg-[#f9e6e3]">
                 <Trash2 className="w-5 h-5 text-accent" /> Delete job
               </button>
-              <button className="flex items-center justify-center border-2 border-[#FED3CA] py-3 xl:px-[34px] font-medium text-base bg-accent rounded-lg text-white gap-2.5 max-xl:w-full">
+              <button className="flex items-center justify-center border-2 border-[#FED3CA] py-3 xl:px-[34px] font-medium text-base bg-accent rounded-lg text-white gap-2.5 max-xl:w-full hover:bg-[#ef6246]">
                 <Pencil className="w-5 h-5 text-white" />
                 Edit job
               </button>
